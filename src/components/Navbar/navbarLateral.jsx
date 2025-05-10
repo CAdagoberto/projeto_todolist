@@ -1,6 +1,7 @@
 
 import styles from './navbarLateral.module.css'
 import PerfilIcon from '../profile/PerfilIcon'
+import Sidebar from '../Sidebar'
 
 export default function NavbarLateral({navbar}) {
     return (
@@ -18,6 +19,8 @@ export default function NavbarLateral({navbar}) {
                     <PerfilIcon classProfile={styles.myWorkIcon}/>
                     <p>My Work</p>
                 </div>
+
+                <Sidebar />
             </div>
         </div>
     </>

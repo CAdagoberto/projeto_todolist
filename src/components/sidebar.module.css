@@ -1,0 +1,48 @@
+.sidebar {
+    padding-top: 20px;
+  }
+  
+  .sidebarSection {
+    margin-bottom: 30px;
+  }
+  
+  .sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #999;
+  }
+  
+  .icon {
+    font-size: 16px;
+  }
+  
+  .sectionTitle {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .plusIcon {
+    font-size: 14px;
+  }
+  
+  .sectionItems {
+    list-style: none;
+    padding-left: 24px;
+    margin: 0;
+  }
+  
+  .sectionItem {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #e6e6e6;
+    cursor: pointer;
+  }
+  
+  .sectionItem:hover {
+    color: #bbb;
+  }
+  
