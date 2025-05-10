@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+}
+
+.profileIcon {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 12px;
+}
+
+.myWorkIcon {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 12px;
+}
+
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.perfil h5 {
+    margin-left: 10px;
+    color: #e6e6e6;
+}
+
+.myWork {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.myWork p {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #e6e6e6;
+}

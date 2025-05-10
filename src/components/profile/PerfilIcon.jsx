@@ -1,9 +1,7 @@
-import styles from './perfilIcon.module.css'
-
-export default function profileIcon() {
+export default function profileIcon({classProfile}) {
     return (
         <>
-            <div className={styles.profile}></div>
+            <div className={classProfile}></div>
         </>
     )
 }

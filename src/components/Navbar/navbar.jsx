@@ -11,7 +11,7 @@ export default function Navbar({navbar}) {
 
                 <div className={styles.item2}>
                     <IoIosNotificationsOutline className={styles.notification} />
-                    <PerfilIcon />
+                    <PerfilIcon classProfile={styles.profile}/>
                 </div>
             </div>
         </div>

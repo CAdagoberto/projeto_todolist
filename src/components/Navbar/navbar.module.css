@@ -33,3 +33,11 @@
 .notification:hover {
     color: #ffffff;
 }
+
+.profile {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 12px;
+}
