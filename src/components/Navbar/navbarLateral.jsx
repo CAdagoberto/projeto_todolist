@@ -21,6 +21,10 @@ export default function NavbarLateral({navbar}) {
                 </div>
 
                 <Sidebar />
+
+                <div className={styles.btnConvidar}>
+                    <button>Convidar Pessoas</button>
+                </div>
             </div>
         </div>
     </>

@@ -1,6 +1,25 @@
 .container {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+    border: 1px solid red;
+    height: 100vh;
 }
+
+.btnConvidar {
+    margin-top: auto; /* empurra o botão para o final do container */
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: #271658;
+    color: white;
+}
+
 
 .profileIcon {
     height: 50px;
