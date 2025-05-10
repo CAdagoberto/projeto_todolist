@@ -2,6 +2,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
+    margin: -10px 50px;
 }
 
 .button_add {
@@ -25,7 +26,12 @@
 }
 
 .notification {
-    font-size: 45px;
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+.notification:hover {
+    color: #ffffff;
 }
 
 .profile {
