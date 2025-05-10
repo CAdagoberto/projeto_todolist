@@ -1,0 +1,14 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    background-color: #000116;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    min-height: 100vh;
+}

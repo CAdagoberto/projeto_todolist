@@ -1,0 +1,96 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    background-color: #13176C;
+    min-height: 500px;
+    max-width: auto;
+    width: 550px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.caixa_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza os inputs horizontalmente */
+    gap: 20px;
+    width: 100%;
+}
+
+.caixa_input label {
+    margin-left: 5px;
+}
+
+.caixa_input p {
+    font-size: 13px;
+}
+
+.caixa_input a {
+    color: #ccc;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.caixa_input a:hover {
+    color: #a9a9a9;
+}
+
+img {
+    width: 350px; /* Tamanho menor e mais centralizado */
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_login {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2D1A65;
+    border: none;
+    color: white;
+    box-shadow: -1px 4px 3px 0px rgba(0,0,0,0.34);
+    font-weight: bold;    /* deixa o texto em negrito */
+    font-style: italic;   /* deixa o texto em itálico */
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.button_login:hover {
+    background-color: #201346;
+}
+
+.inputs {
+    height: 55px;
+    width: 350px;
+    background-color: #070936;
+    border-radius: 15px;
+    border: 3px solid #0F0F0F;
+    text-align: center; /* Isso centraliza o texto e o placeholder */
+    color: white;
+}
+
+.inputs::placeholder {
+    color: #7B7EC0;
+    opacity: 1;
+}
+
+.inputs:focus {
+    outline: none;
+    border: 1px solid #6338ff;
+    box-shadow: 0 0 10px #6338ff;
+    transition: 0.5s;
+}
+
+
+
+
