@@ -1,4 +1,5 @@
 import styles from './navbar.module.css'
+import PerfilIcon from '../profile/PerfilIcon'
 import { IoIosNotificationsOutline } from "react-icons/io";
 
 export default function Navbar({navbar}) {
@@ -10,7 +11,7 @@ export default function Navbar({navbar}) {
 
                 <div className={styles.item2}>
                     <IoIosNotificationsOutline className={styles.notification} />
-                    <div className={styles.profile}></div>
+                    <PerfilIcon />
                 </div>
             </div>
         </div>
