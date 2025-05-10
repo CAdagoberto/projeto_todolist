@@ -12,7 +12,8 @@ const SidebarSection = ({ title, items }) => {
         <span className={styles.sectionTitle}>{title}</span>
         <span className={styles.plusIcon}><FiPlus /></span>
       </div>
-      {open && (
+
+      <div className={`${styles.sectionItemsWrapper} ${open ? styles.open : ''}`}>
         <ul className={styles.sectionItems}>
           {items.map((item, index) => (
             <li key={index} className={styles.sectionItem}>
@@ -20,7 +21,7 @@ const SidebarSection = ({ title, items }) => {
             </li>
           ))}
         </ul>
-      )}
+      </div>
     </div>
   );
 };
