@@ -2,10 +2,11 @@
 import styles from './navbarLateral.module.css'
 import PerfilIcon from '../profile/PerfilIcon'
 import Sidebar from '../Sidebar'
+import { FaUserPlus } from "react-icons/fa";
 
 export default function NavbarLateral({navbar}) {
     return (
-    <>
+    
         <div className={navbar}>
             <div className={styles.container}>
                 <div className={styles.perfil}>
@@ -23,10 +24,13 @@ export default function NavbarLateral({navbar}) {
                 <Sidebar />
 
                 <div className={styles.btnConvidar}>
-                    <button>Convidar Pessoas</button>
+                    <button>
+                        <FaUserPlus className={styles.userIcon}/>
+                        Convidar Pessoas
+                    </button>
                 </div>
             </div>
         </div>
-    </>
+    
     )
 }
